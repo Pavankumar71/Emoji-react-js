@@ -1,0 +1,34 @@
+/* Write your code here. */
+.nav-bar-container {
+  display: flex;
+  background-color: #ffffff33;
+  justify-content: center;
+  padding: 8px;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.tile {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.scores-container {
+  display: flex;
+}
+
+.scores {
+  color: #ffffff;
+  margin-left: 16px;
+}
